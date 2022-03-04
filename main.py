@@ -25,7 +25,7 @@ torch.cuda.manual_seed_all(seed)
 random.seed(seed)
 
 
-parser = argparse.ArgumentParser(description='PyTorch EFSLNet')
+parser = argparse.ArgumentParser(description='PyTorch CEFLNet')
 parser.add_argument('--train_video_root', required=True, help='path to train videos')
 parser.add_argument('--train_list_root', required=True, help='path to train videos list')
 parser.add_argument('--test_video_root', required=True, help='path to test videos')
